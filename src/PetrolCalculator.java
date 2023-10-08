@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class PetrolCalculatorClasses {
-    public void calculate() {
+public class PetrolCalculator {
+    public void calculateLoop() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество действий => ");
         int iterationsCount = scanner.nextInt();
@@ -21,7 +21,7 @@ public class PetrolCalculatorClasses {
     }
 
     public static void main(String[] args) {
-		System.out.println("Введённые аргументы:" + args);
-        new PetrolCalculatorClasses().calculate();
+		/*System.out.println("Введённые аргументы:" + args);*/
+        new PetrolCalculator().calculateLoop();
     }
 }
